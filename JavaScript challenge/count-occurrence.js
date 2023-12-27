@@ -11,3 +11,11 @@ function countOccurrences(str, char){
   return count;
 }
 console.log(countOccurrences("hello", "l"));
+
+
+// Solution 2
+
+function countOccurrences(str, char){
+    return str.split(char).length -1;
+}
+console.log(countOccurrences("hello", "l"));
