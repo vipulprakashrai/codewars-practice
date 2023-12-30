@@ -1,6 +1,9 @@
 //Write a function called arrayIntersection that takes in two arrays 
 //and returns an array containing the intersection of the two input arrays (i.e., the common elements that appear in both arrays).
 
+//Constraints->
+//The input arrays can contain any number of elements
+//The input arrays can contain any positive integer
 
 
 //solution

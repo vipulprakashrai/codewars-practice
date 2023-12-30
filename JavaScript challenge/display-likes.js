@@ -8,6 +8,8 @@
 //If three people like it, it should return '{name1}, {name2} and {name3} like this'
 //If more than three people like it, it should return '{name1}, {name2} and {x} others like this'
 
+//Constraints->
+//The input array will only contain strings
 
 //solution
 
