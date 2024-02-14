@@ -8,7 +8,7 @@ class Queue{
     }
   
     dequeue(){
-      return this.items.shft();
+      return this.items.shift();
     }
   
     isEmpty(){
@@ -34,3 +34,10 @@ class Queue{
   const queue = new Queue();
   console.log(queue.isEmpty());
   
+  queue.enqueue(1);
+  queue.enqueue(2);
+  queue.enqueue(3);
+  console.log(queue.size());
+  queue.print();
+  console.log(queue.dequeue());
+  console.log(queue.peek());
